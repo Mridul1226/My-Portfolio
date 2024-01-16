@@ -1,0 +1,344 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+}
+
+p {
+    margin: 5px 0;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#mypic {
+    align-items: start;
+
+}
+
+.img img {
+    width: 15%;
+    align-items: start;
+    border-radius: 58px;
+
+}
+
+#about {
+    display: block;
+    align-items: right;
+    margin: 20px;
+    padding: 20px 20px;
+
+
+}
+
+
+
+
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.project p {
+    color: #ccc;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.expanded {
+    max-height: none;
+    overflow: visible;
+}
+
+#education {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+#education h2::before {
+    content: "\2022";
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    left: 44%;
+    line-height: 0.7;
+
+}
+
+.school h3::before {
+    content: "*";
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    left: 45%;
+    line-height: -0.1;
+
+}
+
+.btech h3::before {
+    content: "*";
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    left: 42%;
+    line-height: -0.1;
+}
+
+
+
+#achievements {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+    color: black;
+    background-color: white;
+
+}
+
+#achievements h2 {
+    color: black;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#achievements {
+    margin-bottom: 20px;
+}
+
+#achievements h3 {
+    color: black;
+    position: relative;
+}
+
+.sih h3::before {
+    content: "\2022";
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    left: 43%;
+    line-height: 0.7;
+}
+
+.maths h3::before {
+    content: "\2022";
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    left: 37%;
+    line-height: 0.7;
+
+}
+
+.Ncc h3::before {
+    content: "\2022";
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    left: 47%;
+    line-height: 0.7;
+
+}
+
+#achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#achievements li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+
+#achievements p {
+    margin: 10px 0;
+    color: black;
+}
+
+#achievements h2::before {
+    content: "*";
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    left: 42%;
+    line-height: -0.3;
+}
+
+
+
+
+#internships {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+
+#internships h2 {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#internships h2::before {
+
+    color: #fff;
+    font-size: 1.5em;
+    position: absolute;
+    left: -20px;
+    line-height: 1;
+}
+
+.internship {
+    margin-bottom: 20px;
+}
+
+.internship h3 {
+    color: #fff;
+    position: relative;
+}
+
+.internship h3::before {
+    content: "\2022";
+    color: #fff;
+    font-size: 1.5em;
+    position: absolute;
+    left: 494px;
+    line-height: 0.7;
+}
+
+.internship ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.internship li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.internship li::before {
+
+    color: #fff;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    line-height: 1;
+}
+
+.internship p {
+    margin: 10px 0;
+    color: #ccc;
+}
+
+#contact {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+}
+
+#skills {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+    color: black;
+    content: none;
+
+}
+
+.skills h4 {
+    align-content: center;
+    left: 56%;
+
+}
+
+.skills h4::before {
+    content: "*";
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    left: 47%;
+    line-height: -0.1;
+
+}
+
+.skills ul li::before {
+    text-align: center;
+    content: none;
+    color: black;
+
+
+}
+
+
+
+
+#conta {
+    align-items: center;
+    padding: 0px 30px;
+    content: "none";
+    list-style: none;
+}
+
+#conta li::before {
+    content: "#";
+    content: bold;
+}
